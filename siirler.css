@@ -1,0 +1,24 @@
+.btnikinci{
+     
+    color: white;
+     width: 20px;
+     height: 20px;
+    
+            
+        }
+#siirmenu{
+    display: inline-block;
+    padding: 50px;
+    margin: 50px 50px;
+    font-size: 30px;
+    background-color: gray;
+    border-style: solid;
+    border-color: cyan;
+    
+}
+.siirresim{
+    float: right;
+    padding: 20px;
+   
+}
+
