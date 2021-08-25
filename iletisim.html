@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="site.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <style>
+        h1{
+            display: inline-block;
+        }
+        
+        body{
+            background: cyan;
+            width: 1300px
+        }
+        h3{
+            
+            margin:0;
+            padding: 0;
+            display: inline;
+            background: cyan;
+            color: white;
+            font-size: 40px;
+        }
+      
+        
+        .btn{
+            padding: 15px 15px;
+            border: none;
+            text-decoration: none;
+            font-size: 16px;
+            
+            
+        }
+        
+        .birinci{
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+        }
+        
+        .renk:hover{
+            opacity: 0.7;
+            background-color: black;
+            color:cyan;
+        }
+       
+        h4{
+            background: cyan;
+            color: white;
+            font-size: 40px;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align:center;
+        }
+        
+        .sayfa{
+            width: 550px;
+            height: 500px;
+            display: inline-block;
+            margin-left: 50px;
+            border: 2px solid black;
+        }
+        
+        #birinci{
+            background-color: white;
+        }
+        
+        #ikinci{
+            background-color: white;
+            
+            float: right;
+        }
+        p{
+            
+            font-size: 20px;
+            font-weight: bold;
+            margin-left: 5px;
+           
+        }
+        #adsoyad{
+            font-size: 30px;
+            float: left;
+        }
+        #eposta{
+            font-size: 30px;
+            float: left;
+        }
+        #gonder{
+            margin-left: 290px;
+        }
+    </style>
+</head>
+<body>
+   <h3> ŞİİRHANE  </h3>
+   <ul>
+       <li> <a href="index.html"  class="btn birinci renk "> ANASAYFA  </a> </li>
+       <li> <a href="siirler.html"  class="btn birinci renk">ŞİİRLER </a> </li>
+       <li> <a href="hikayeler.html"  class="btn birinci renk">HİKAYELER  </a> </li>
+       <li> <a href="galeri.html"  class="btn birinci renk">GALERİ  </a> </li>
+       <li> <a href="satis.html"  class="btn birinci renk">SATIŞ  </a></li>
+       <li> <a href="takvim.html"  class="btn birinci renk">TAKVİM </a> </li>
+       <li> <a href="hakkinda.html"  class="btn birinci renk ">HAKKINDA  </a></li>
+       <li> <a href="iletisim.html"  class="btn birinci renk">İLETİŞİM  </a></li>
+       <li> <a href="kayitol.html"  class="btn birinci renk">KAYITOL  </a></li>
+
+       
+   </ul>
+
+   <div>
+        <h4>İLETİŞİM</h4>
+       
+       <div class="sayfa" id="birinci" > 
+           <p>
+              İLETİŞİM FORMU
+              <br> <br> <br> 
+               <input type="text" name="adsoyad" placeholder="Ad Soyad Giriniz" id="adsoyad" >
+               <br> <br> <br>
+               <input type="text" name="eposta" placeholder="E-posta" id="eposta" >
+               <br> <br> <br>
+                <textarea name="metin_kutusu_1" rows="10" cols="49 "  > Mesaj </textarea>
+                <br>
+                <input type="submit" value="GONDER" id="gonder" >
+
+           </p>
+           
+          
+       </div>
+       
+       <div class="sayfa " id="ikinci" >
+           <p>
+               Telefon:----------
+               <br> <br> 
+               Fax:-----------
+               <br><br>
+               E-Posta:-------------
+               <br> <br>
+               Adres:------------
+           </p>
+       
+       
+       </div>
+       
+       
+   </div>
+    
+   
+   
+</body>
+</html>
