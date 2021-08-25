@@ -1,0 +1,64 @@
+/* sekmeler için */ 
+ a{
+            
+    text-decoration: none;
+            
+ }
+ li{
+    display: inline;
+     width: 250px;
+            
+}
+ ul{
+     text-align:right;
+     font-size: 25px;
+     word-spacing: 15px;
+         
+     margin-top: 5px;
+            
+ }
+
+/*  Tüm body için */
+body{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/* Galeri için   */
+
+#galeri{
+    width: 1000px;
+    margin: 100px 200px;
+}
+
+
+.galeri2{
+    width: %20;
+    float: left;
+    padding: 10px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.galeri2:hover{
+    cursor: pointer;
+    border: 1px solid  blue;
+}
+
+.galeri2 img{
+    width: %100;
+    height: %100;
+    object-fit: cover;
+}
+*{
+    box-sizing: border-box;
+}
+
+.sair{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+   
+}
+
+
+
